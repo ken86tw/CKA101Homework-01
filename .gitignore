@@ -1,0 +1,7 @@
+.classpath
+.project
+.settings/
+bin
+.DS_Store
+
+#註解一下
