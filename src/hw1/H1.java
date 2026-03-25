@@ -1,6 +1,6 @@
 package hw1;
 
-public class h1 {
+public class H1 {
 	public static void main(String[] args) {
 		
 		int value1=12,value2=6;

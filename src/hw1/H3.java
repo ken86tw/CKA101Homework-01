@@ -1,6 +1,6 @@
 package hw1;
 
-public class h3 {
+public class H3 {
 	public static void main(String[] args) {
 		int time=256559,sec,min,hr,day;
 		day=time/60/60/24;
