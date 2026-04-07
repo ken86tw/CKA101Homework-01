@@ -10,15 +10,13 @@ DDDD
 EEEEE
 FFFFFF
 		*/
-		for(int i=1;i<=6;i++) {
-			for(int j=0;j<i;j++) {
-				char tex=0x41;
-				tex+=i-1;
-				System.out.print(tex);
+		for(int i=1;i<=6;i++) {			//迴圈層數
+			for(int j=0;j<i;j++) {		//迴圈次數
+				char tex=0x41;			//從A開始
+				tex+=i-1;				//每次執行+1
+				System.out.print(tex);	//輸出
 			}
-			System.out.println();
+			System.out.println();		//換行
 		}
-		
-		
 	}
 }

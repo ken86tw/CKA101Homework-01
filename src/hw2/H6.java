@@ -14,15 +14,13 @@ public class H6 {
 		1 2 
 		1
 		*/
-		for(int i=0;i<10;i++) {
-			int k=1;
-			for(int j=10;j-i>0;j--) {
-				System.out.print(k+" ");
-				k++;
+		for(int i=0;i<10;i++) {			//迴圈層數
+			int k=1;					//輸出的數字(放在這每次迴圈可以重置)
+			for(int j=10;j-i>0;j--) {	//迴圈次數
+				System.out.print(k+" ");//輸出數字
+				k++;					//數字+1
 			}
-			System.out.println();
+			System.out.println();		//換行
 		}
-		
-		
 	}
 }
